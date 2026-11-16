@@ -1,0 +1,64 @@
+Palle Vindu Family Restaurant — Menu Photo Mapping
+
+Each menu item uses its own local image at assets/menu-photos/NN.webp.
+
+Requested photo updates (2026-11-15):
+29. Chicken Majestic -> assets/menu-photos/29.webp (uploaded photo)
+30. Chicken 555 -> assets/menu-photos/30.webp (uploaded photo)
+31. Chilli Prawn -> assets/menu-photos/31.webp (uploaded photo)
+32. Prawn Manchuria -> assets/menu-photos/32.webp (uploaded photo)
+33. Butter Garlic Prawn -> assets/menu-photos/33.webp (uploaded photo)
+34. Hyderabadi Dum Biryani -> assets/menu-photos/34.webp (uploaded photo)
+35. Chicken Fry Piece Biryani -> assets/menu-photos/35.webp (uploaded photo)
+36. Chicken Lollypop Biryani -> assets/menu-photos/36.webp (separate existing chicken-lollypop photo; no dedicated upload supplied)
+37. Chicken Wings Biryani -> assets/menu-photos/37.webp (separate existing chicken-wings photo; no dedicated upload supplied)
+
+All menu cards and cart rows load the image matching the menu item's numeric ID.
+
+Additional requested photo updates (2026-11-15):
+42. Mughlai Biryani -> assets/menu-photos/42.webp (uploaded photo)
+39. Mixed Mutton Biryani -> assets/menu-photos/39.webp (uploaded photo)
+40. Egg Biryani (3 Eggs) -> assets/menu-photos/40.webp (uploaded photo)
+41. Prawn Biryani -> assets/menu-photos/41.webp (uploaded photo)
+
+Additional requested photo updates (2026-11-15):
+28. Chicken Tai Pai (requested as Chicken Thai Pie) -> assets/menu-photos/28.webp (uploaded photo)
+27. Chicken Hyderabadi (requested as Chicken Hyderabad) -> assets/menu-photos/27.webp (uploaded photo)
+26. Dragon Chicken -> assets/menu-photos/26.webp (uploaded photo)
+25. Fish 65 -> assets/menu-photos/25.webp (uploaded photo)
+24. Apollo Fish -> assets/menu-photos/24.webp (uploaded photo)
+23. Chicken Crunchy -> assets/menu-photos/23.webp (uploaded photo)
+22. Hong Kong Chicken -> assets/menu-photos/22.webp (uploaded photo)
+21. Chicken Manchuria -> assets/menu-photos/21.webp (uploaded photo)
+20. Chicken 65 -> assets/menu-photos/20.webp (uploaded photo)
+
+Each uploaded photo is assigned to its own menu item image file. The existing item IDs and menu display logic are unchanged.
+
+Additional requested photo updates (2026-11-15):
+19. Chilli Chicken -> assets/menu-photos/19.webp (uploaded photo 1)
+18. Cashew Nut Chicken -> assets/menu-photos/18.webp (uploaded photo 2)
+17. Lase Fry -> assets/menu-photos/17.webp (uploaded photo 3)
+36. Chicken Lollypop Biryani -> assets/menu-photos/36.webp (uploaded photo 4)
+
+
+Additional requested photo updates (2026-11-15):
+38. Chicken Mughlai Biryani -> assets/menu-photos/38.webp (uploaded photo 1000361919.jpg)
+43. Apollo Fish Biryani -> assets/menu-photos/43.webp (uploaded photo 1000361920.jpg)
+44. Special Chicken Biryani -> assets/menu-photos/44.webp (uploaded photo 1000361921.jpg)
+45. Chittimutyala Biryani -> assets/menu-photos/45.webp (uploaded photo 1000361922.jpg)
+46. Mixed Biryani -> assets/menu-photos/46.webp (uploaded photo 1000361923.jpg)
+47. Goat Biryani -> assets/menu-photos/47.webp (uploaded photo 1000361924.jpg)
+48. Prawn Pot Biryani -> assets/menu-photos/48.webp (uploaded photo 1000361925.jpg)
+49. Fish Pot Biryani -> assets/menu-photos/49.webp (uploaded photo 1000361926.jpg)
+50. Chicken Fried Rice -> assets/menu-photos/50.webp (uploaded photo 1000361927.jpg)
+
+The nine newly supplied photos are assigned in the exact upload order requested. Existing menu item IDs and display logic are unchanged.
+
+Additional requested fried-rice photo updates (2026-11-15):
+51. Egg Fried Rice -> assets/menu-photos/51.webp (uploaded photo 1000361928.jpg)
+52. Mixed Non-Veg Fried Rice -> assets/menu-photos/52.webp (uploaded photo 1000361929.jpg)
+53. Veg Fried Rice -> assets/menu-photos/53.webp (uploaded photo 1000361930.jpg)
+54. Paneer Fried Rice -> assets/menu-photos/54.webp (uploaded photo 1000361931.jpg)
+55. Mushroom Fried Rice -> assets/menu-photos/55.webp (uploaded photo)
+
+The five fried-rice photos are assigned to their matching menu items. Existing menu item IDs, names, prices, and display logic are unchanged.

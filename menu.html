@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Digital Menu | Palle Vindu Family Restaurant</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css"><script src="script.js" defer></script>
+  <style>
+    .digital-header{background-color:var(--forest);color:white;text-align:center;padding:34px 20px}
+    .digital-header .brand-logo{width:min(230px,70vw);max-height:100px;margin:0 auto 12px}
+    .digital-header h1{font:700 2.5rem var(--serif);margin:0}
+    .digital-header p{color:#fff0c8;margin:6px 0 0;font-size:.85rem}
+    .digital-menu-main{padding-top:38px}
+    .digital-menu-main .section-heading{margin-bottom:20px}
+    .digital-menu-main .food-grid{padding-bottom:55px}
+    .table-tag{display:inline-block;background:var(--forest-soft);color:var(--forest);padding:7px 12px;border-radius:20px;font-size:.75rem;margin-top:16px}
+    .digital-footer{text-align:center;background-color:var(--forest-dark);color:#fff0c8;padding:22px;font-size:.75rem}
+  </style>
+</head>
+<body>
+  <header class="digital-header produce-background">
+    <img class="brand-logo" src="assets/palle-vindu-logo.png" alt="Palle Vindu Family Restaurant"><h1>Digital Menu</h1><p>FAMILY RESTAURANT · TRADITIONAL FLAVOURS</p><span class="table-tag" id="tableTag">Browse our menu</span>
+  </header>
+  <main class="section-pad digital-menu-main produce-background">
+    <div class="section-heading"><div><p class="eyebrow">PALLE VINDU SPECIALS</p><h2>What would you like <em>today?</em></h2><p class="section-intro">Browse our complete menu and choose your favourite dishes.</p></div><label class="search-box"><span>⌕</span><input id="searchInput" type="search" placeholder="Search dishes..." aria-label="Search dishes"></label></div>
+    <div class="category-row" id="categoryRow">
+      <button class="category-chip active" data-category="All">All dishes</button><button class="category-chip" data-category="Veg Starters">Veg Starters</button><button class="category-chip" data-category="Non Veg Starters">Non Veg Starters</button><button class="category-chip" data-category="Biryanis">Biryanis</button><button class="category-chip" data-category="Fried Rice">Fried Rice</button>
+    </div>
+    <div class="food-grid" id="foodGrid"></div>
+    <a class="button button-green" href="index.html#dinein">Restaurant details & directions ↗</a>
+  </main>
+  <footer class="digital-footer produce-background">Palle Vindu Family Restaurant · Traditional taste, happy moments</footer>
+  <script>
+    document.addEventListener("DOMContentLoaded", () => {
+      const table = new URLSearchParams(window.location.search).get("table");
+      if (table) document.getElementById("tableTag").textContent = `Dine-in · Table ${table}`;
+    });
+  </script>
+</body>
+</html>

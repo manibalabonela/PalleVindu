@@ -1,0 +1,343 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Explore the delicious menu of Palle Vindu Family Restaurant."
+    />
+    <title>Palle Vindu Family Restaurant | Digital Menu</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/qrcodejs/1.0.0/qrcode.min.js"
+      defer
+    ></script>
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <div class="announcement">
+      Freshly prepared, full of flavour <span>✦</span> Made with love every day
+    </div>
+    <header class="site-header">
+      <a class="brand" href="#home" aria-label="Palle Vindu Family Restaurant home">
+        <img class="brand-logo" src="assets/palle-vindu-logo.png" alt="Palle Vindu Family Restaurant">
+      </a>
+      <button class="menu-toggle" id="menuToggle" aria-label="Open navigation">
+        ☰
+      </button>
+      <nav class="nav-links" id="navLinks">
+        <a href="#home">Home</a><a href="#dinein">Dine In</a
+        ><a href="#about">Our Story</a>
+      </nav>
+    </header>
+
+    <main>
+      <section class="hero" id="home">
+        <svg width="0" height="0" style="position:absolute" aria-hidden="true" focusable="false"><defs>
+<filter id="gpBlur1" x="-20%" y="-20%" width="140%" height="140%"><feGaussianBlur stdDeviation="1.2"/></filter>
+<filter id="gpBlur3" x="-30%" y="-30%" width="160%" height="160%"><feGaussianBlur stdDeviation="3.2"/></filter>
+<filter id="gpSkin" filterUnits="userSpaceOnUse" x="0" y="0" width="200" height="200">
+  <feTurbulence type="fractalNoise" baseFrequency=".7" numOctaves="3" seed="4"/>
+  <feColorMatrix values="0 0 0 0 .32  0 0 0 0 .02  0 0 0 0 0  .95 0 0 0 -.32"/>
+</filter>
+<filter id="gpPaper" filterUnits="userSpaceOnUse" x="0" y="0" width="200" height="220">
+  <feTurbulence type="fractalNoise" baseFrequency=".012 .5" numOctaves="3" seed="9"/>
+  <feColorMatrix values="0 0 0 0 .55  0 0 0 0 .42  0 0 0 0 .25  1.1 0 0 0 -.38"/>
+</filter>
+<radialGradient id="gpTomFill" cx=".36" cy=".3" r=".85"><stop offset="0" stop-color="#ff9272"/><stop offset=".25" stop-color="#f4532f"/><stop offset=".6" stop-color="#d82b14"/><stop offset="1" stop-color="#85100a"/></radialGradient>
+<radialGradient id="gpTomShade" cx=".5" cy="1.08" r=".72"><stop offset="0" stop-color="#2a0000" stop-opacity=".62"/><stop offset="1" stop-color="#2a0000" stop-opacity="0"/></radialGradient>
+<radialGradient id="gpTomBounce" cx=".88" cy=".62" r=".34"><stop offset="0" stop-color="#ffa07c" stop-opacity=".42"/><stop offset="1" stop-color="#ffa07c" stop-opacity="0"/></radialGradient>
+<linearGradient id="gpSepal" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#3f6a22"/><stop offset="1" stop-color="#8dbb52"/></linearGradient>
+<linearGradient id="gpStem" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#3a5a1c"/><stop offset=".6" stop-color="#7ea04a"/><stop offset="1" stop-color="#4a6c26"/></linearGradient>
+<radialGradient id="gpSkinRing" cx=".4" cy=".35" r=".8"><stop offset="0" stop-color="#e84a2a"/><stop offset="1" stop-color="#9c160b"/></radialGradient>
+<radialGradient id="gpFlesh" cx=".5" cy=".5" r=".55"><stop offset="0" stop-color="#ffc3ae"/><stop offset=".55" stop-color="#f5704f"/><stop offset="1" stop-color="#d93a1f"/></radialGradient>
+<radialGradient id="gpGel" cx=".45" cy=".4" r=".7"><stop offset="0" stop-color="#ffd9c8" stop-opacity=".95"/><stop offset="1" stop-color="#ff6f50" stop-opacity=".9"/></radialGradient>
+<radialGradient id="gpSliceVig" cx=".5" cy=".5" r=".5"><stop offset=".7" stop-color="#6a0a00" stop-opacity="0"/><stop offset="1" stop-color="#6a0a00" stop-opacity=".35"/></radialGradient>
+<radialGradient id="gpGarlicFill" cx=".38" cy=".4" r=".75"><stop offset="0" stop-color="#ffffff"/><stop offset=".5" stop-color="#f7efde"/><stop offset="1" stop-color="#cdb98f"/></radialGradient>
+<linearGradient id="gpGarlicBlush" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#8a4a86" stop-opacity="0"/><stop offset=".5" stop-color="#8a4a86" stop-opacity=".26"/><stop offset="1" stop-color="#8a4a86" stop-opacity="0"/></linearGradient>
+<radialGradient id="gpGarlicShade" cx=".5" cy="1.05" r=".7"><stop offset="0" stop-color="#5a3f1c" stop-opacity=".5"/><stop offset="1" stop-color="#5a3f1c" stop-opacity="0"/></radialGradient>
+<radialGradient id="gpClove" cx=".35" cy=".35" r=".9"><stop offset="0" stop-color="#fffaf0"/><stop offset=".6" stop-color="#efdfbd"/><stop offset="1" stop-color="#bfa575"/></radialGradient>
+
+<clipPath id="gpTomClip"><path d="M100 40C132 30 172 46 184 90C196 134 170 180 124 184C108 186 92 186 76 184C30 180 4 134 16 90C28 46 68 30 100 40Z"/></clipPath>
+<g id="gpTomato">
+ <path d="M100 40C132 30 172 46 184 90C196 134 170 180 124 184C108 186 92 186 76 184C30 180 4 134 16 90C28 46 68 30 100 40Z" fill="url(#gpTomFill)"/>
+ <path d="M100 40C132 30 172 46 184 90C196 134 170 180 124 184C108 186 92 186 76 184C30 180 4 134 16 90C28 46 68 30 100 40Z" fill="url(#gpTomShade)"/>
+ <path d="M100 40C132 30 172 46 184 90C196 134 170 180 124 184C108 186 92 186 76 184C30 180 4 134 16 90C28 46 68 30 100 40Z" fill="url(#gpTomBounce)"/>
+ <g clip-path="url(#gpTomClip)">
+  <rect width="200" height="200" filter="url(#gpSkin)"/>
+  <g fill="none" stroke="#5a0a04" stroke-opacity=".3" stroke-width="3" filter="url(#gpBlur1)">
+   <path d="M100 46C86 90 82 140 96 184"/><path d="M100 46C122 86 128 140 112 184"/><path d="M96 48C58 70 40 120 52 170"/>
+  </g>
+  <ellipse cx="64" cy="64" rx="26" ry="12" transform="rotate(-38 64 64)" fill="#fff" opacity=".5" filter="url(#gpBlur3)"/>
+  <ellipse cx="57" cy="58" rx="9" ry="3.6" transform="rotate(-38 57 58)" fill="#fff" opacity=".95" filter="url(#gpBlur1)"/>
+  <path d="M150 62C170 84 176 120 164 150" fill="none" stroke="#ffb59a" stroke-opacity=".4" stroke-width="3" filter="url(#gpBlur1)"/>
+ </g>
+ <g transform="translate(100 44) scale(1 .62)"><path transform="rotate(-1) scale(1.04)" d="M0 0C6 -8 24 -10 44 3C28 1 12 8 0 0Z" fill="url(#gpSepal)"/><path transform="rotate(67) scale(1.02)" d="M0 0C6 -8 24 -10 44 3C28 1 12 8 0 0Z" fill="url(#gpSepal)"/><path transform="rotate(120) scale(1.05)" d="M0 0C6 -8 24 -10 44 3C28 1 12 8 0 0Z" fill="url(#gpSepal)"/><path transform="rotate(175) scale(1.03)" d="M0 0C6 -8 24 -10 44 3C28 1 12 8 0 0Z" fill="url(#gpSepal)"/><path transform="rotate(242) scale(1.10)" d="M0 0C6 -8 24 -10 44 3C28 1 12 8 0 0Z" fill="url(#gpSepal)"/><path transform="rotate(294) scale(0.98)" d="M0 0C6 -8 24 -10 44 3C28 1 12 8 0 0Z" fill="url(#gpSepal)"/></g>
+ <path d="M96 46C95 32 97 24 102 18C107 24 106 34 105 46Z" fill="url(#gpStem)"/>
+ <ellipse cx="100.5" cy="44" rx="6" ry="3" fill="#2f4a16" opacity=".7"/>
+</g>
+<g id="gpSlice">
+ <circle cx="100" cy="100" r="95" fill="url(#gpSkinRing)"/>
+ <circle cx="100" cy="100" r="90" fill="url(#gpFlesh)"/>
+ <path d="M121.0 111.0L173.0 111.0A73 73 0 0 1 111.0 173.0L111.0 121.0A21 21 0 0 0 121.0 111.0Z" fill="url(#gpGel)" stroke="url(#gpGel)" stroke-width="9" stroke-linejoin="round"/><path d="M89.0 121.0L89.0 173.0A73 73 0 0 1 27.0 111.0L79.0 111.0A21 21 0 0 0 89.0 121.0Z" fill="url(#gpGel)" stroke="url(#gpGel)" stroke-width="9" stroke-linejoin="round"/><path d="M79.0 89.0L27.0 89.0A73 73 0 0 1 89.0 27.0L89.0 79.0A21 21 0 0 0 79.0 89.0Z" fill="url(#gpGel)" stroke="url(#gpGel)" stroke-width="9" stroke-linejoin="round"/><path d="M111.0 79.0L111.0 27.0A73 73 0 0 1 173.0 89.0L121.0 89.0A21 21 0 0 0 111.0 79.0Z" fill="url(#gpGel)" stroke="url(#gpGel)" stroke-width="9" stroke-linejoin="round"/>
+ <circle cx="100" cy="100" r="13" fill="#ffe4d6"/><circle cx="100" cy="100" r="13" fill="none" stroke="#f08a6e" stroke-width="1.2" opacity=".6"/>
+ <g transform="translate(120.2 129.4) rotate(125)"><ellipse rx="4.6" ry="3" fill="#f7e8ae" stroke="#c9ad62" stroke-width=".7"/><ellipse cx="-1.2" cy="-.9" rx="1.8" ry=".9" fill="#fff" opacity=".8"/></g><g transform="translate(116.4 130.0) rotate(174)"><ellipse rx="4.6" ry="3" fill="#f7e8ae" stroke="#c9ad62" stroke-width=".7"/><ellipse cx="-1.2" cy="-.9" rx="1.8" ry=".9" fill="#fff" opacity=".8"/></g><g transform="translate(134.1 139.2) rotate(28)"><ellipse rx="4.6" ry="3" fill="#f7e8ae" stroke="#c9ad62" stroke-width=".7"/><ellipse cx="-1.2" cy="-.9" rx="1.8" ry=".9" fill="#fff" opacity=".8"/></g><g transform="translate(123.2 124.0) rotate(11)"><ellipse rx="4.6" ry="3" fill="#f7e8ae" stroke="#c9ad62" stroke-width=".7"/><ellipse cx="-1.2" cy="-.9" rx="1.8" ry=".9" fill="#fff" opacity=".8"/></g><g transform="translate(131.1 122.8) rotate(5)"><ellipse rx="4.6" ry="3" fill="#f7e8ae" stroke="#c9ad62" stroke-width=".7"/><ellipse cx="-1.2" cy="-.9" rx="1.8" ry=".9" fill="#fff" opacity=".8"/></g><g transform="translate(134.0 131.7) rotate(152)"><ellipse rx="4.6" ry="3" fill="#f7e8ae" stroke="#c9ad62" stroke-width=".7"/><ellipse cx="-1.2" cy="-.9" rx="1.8" ry=".9" fill="#fff" opacity=".8"/></g><g transform="translate(63.3 131.0) rotate(90)"><ellipse rx="4.6" ry="3" fill="#f7e8ae" stroke="#c9ad62" stroke-width=".7"/><ellipse cx="-1.2" cy="-.9" rx="1.8" ry=".9" fill="#fff" opacity=".8"/></g><g transform="translate(64.0 137.8) rotate(50)"><ellipse rx="4.6" ry="3" fill="#f7e8ae" stroke="#c9ad62" stroke-width=".7"/><ellipse cx="-1.2" cy="-.9" rx="1.8" ry=".9" fill="#fff" opacity=".8"/></g><g transform="translate(45.4 129.2) rotate(151)"><ellipse rx="4.6" ry="3" fill="#f7e8ae" stroke="#c9ad62" stroke-width=".7"/><ellipse cx="-1.2" cy="-.9" rx="1.8" ry=".9" fill="#fff" opacity=".8"/></g><g transform="translate(66.5 141.8) rotate(41)"><ellipse rx="4.6" ry="3" fill="#f7e8ae" stroke="#c9ad62" stroke-width=".7"/><ellipse cx="-1.2" cy="-.9" rx="1.8" ry=".9" fill="#fff" opacity=".8"/></g><g transform="translate(79.1 135.7) rotate(138)"><ellipse rx="4.6" ry="3" fill="#f7e8ae" stroke="#c9ad62" stroke-width=".7"/><ellipse cx="-1.2" cy="-.9" rx="1.8" ry=".9" fill="#fff" opacity=".8"/></g><g transform="translate(62.7 124.4) rotate(70)"><ellipse rx="4.6" ry="3" fill="#f7e8ae" stroke="#c9ad62" stroke-width=".7"/><ellipse cx="-1.2" cy="-.9" rx="1.8" ry=".9" fill="#fff" opacity=".8"/></g><g transform="translate(66.7 49.1) rotate(0)"><ellipse rx="4.6" ry="3" fill="#f7e8ae" stroke="#c9ad62" stroke-width=".7"/><ellipse cx="-1.2" cy="-.9" rx="1.8" ry=".9" fill="#fff" opacity=".8"/></g><g transform="translate(79.8 66.5) rotate(85)"><ellipse rx="4.6" ry="3" fill="#f7e8ae" stroke="#c9ad62" stroke-width=".7"/><ellipse cx="-1.2" cy="-.9" rx="1.8" ry=".9" fill="#fff" opacity=".8"/></g><g transform="translate(54.0 59.3) rotate(13)"><ellipse rx="4.6" ry="3" fill="#f7e8ae" stroke="#c9ad62" stroke-width=".7"/><ellipse cx="-1.2" cy="-.9" rx="1.8" ry=".9" fill="#fff" opacity=".8"/></g><g transform="translate(70.2 58.3) rotate(49)"><ellipse rx="4.6" ry="3" fill="#f7e8ae" stroke="#c9ad62" stroke-width=".7"/><ellipse cx="-1.2" cy="-.9" rx="1.8" ry=".9" fill="#fff" opacity=".8"/></g><g transform="translate(72.5 77.5) rotate(174)"><ellipse rx="4.6" ry="3" fill="#f7e8ae" stroke="#c9ad62" stroke-width=".7"/><ellipse cx="-1.2" cy="-.9" rx="1.8" ry=".9" fill="#fff" opacity=".8"/></g><g transform="translate(53.4 70.9) rotate(44)"><ellipse rx="4.6" ry="3" fill="#f7e8ae" stroke="#c9ad62" stroke-width=".7"/><ellipse cx="-1.2" cy="-.9" rx="1.8" ry=".9" fill="#fff" opacity=".8"/></g><g transform="translate(118.0 68.9) rotate(143)"><ellipse rx="4.6" ry="3" fill="#f7e8ae" stroke="#c9ad62" stroke-width=".7"/><ellipse cx="-1.2" cy="-.9" rx="1.8" ry=".9" fill="#fff" opacity=".8"/></g><g transform="translate(127.9 74.0) rotate(81)"><ellipse rx="4.6" ry="3" fill="#f7e8ae" stroke="#c9ad62" stroke-width=".7"/><ellipse cx="-1.2" cy="-.9" rx="1.8" ry=".9" fill="#fff" opacity=".8"/></g><g transform="translate(130.7 76.8) rotate(24)"><ellipse rx="4.6" ry="3" fill="#f7e8ae" stroke="#c9ad62" stroke-width=".7"/><ellipse cx="-1.2" cy="-.9" rx="1.8" ry=".9" fill="#fff" opacity=".8"/></g><g transform="translate(127.4 56.2) rotate(76)"><ellipse rx="4.6" ry="3" fill="#f7e8ae" stroke="#c9ad62" stroke-width=".7"/><ellipse cx="-1.2" cy="-.9" rx="1.8" ry=".9" fill="#fff" opacity=".8"/></g><g transform="translate(123.7 68.8) rotate(175)"><ellipse rx="4.6" ry="3" fill="#f7e8ae" stroke="#c9ad62" stroke-width=".7"/><ellipse cx="-1.2" cy="-.9" rx="1.8" ry=".9" fill="#fff" opacity=".8"/></g><g transform="translate(134.9 55.8) rotate(159)"><ellipse rx="4.6" ry="3" fill="#f7e8ae" stroke="#c9ad62" stroke-width=".7"/><ellipse cx="-1.2" cy="-.9" rx="1.8" ry=".9" fill="#fff" opacity=".8"/></g>
+ <circle cx="100" cy="100" r="90" fill="url(#gpSliceVig)"/>
+ <path d="M34 66A72 72 0 0 1 98 28" fill="none" stroke="#fff" stroke-opacity=".5" stroke-width="7" stroke-linecap="round" filter="url(#gpBlur3)"/>
+ <path d="M40 60A66 66 0 0 1 70 38" fill="none" stroke="#fff" stroke-opacity=".85" stroke-width="2.2" stroke-linecap="round" filter="url(#gpBlur1)"/>
+ <circle cx="100" cy="100" r="94.5" fill="none" stroke="#ff9a80" stroke-opacity=".25" stroke-width="1.5"/>
+</g>
+<clipPath id="gpGarClip"><path d="M100 8C103 30 106 44 124 58C162 80 188 120 177 160C169 196 134 209 100 209C66 209 31 196 23 160C12 120 38 80 76 58C94 44 97 30 100 8Z"/></clipPath>
+<g id="gpGarlic">
+ <path d="M80 207q-12.5 7 -22.5 12" stroke="#d8c8a2" stroke-width="1.2" fill="none" stroke-linecap="round"/><path d="M84 207q-10.0 7 -18.0 12" stroke="#d8c8a2" stroke-width="1.2" fill="none" stroke-linecap="round"/><path d="M88 207q-7.5 7 -13.5 12" stroke="#d8c8a2" stroke-width="1.2" fill="none" stroke-linecap="round"/><path d="M92 207q-5.0 7 -9.0 12" stroke="#d8c8a2" stroke-width="1.2" fill="none" stroke-linecap="round"/><path d="M96 207q-2.5 7 -4.5 12" stroke="#d8c8a2" stroke-width="1.2" fill="none" stroke-linecap="round"/><path d="M100 207q0.0 7 0.0 12" stroke="#d8c8a2" stroke-width="1.2" fill="none" stroke-linecap="round"/><path d="M104 207q2.5 7 4.5 12" stroke="#d8c8a2" stroke-width="1.2" fill="none" stroke-linecap="round"/><path d="M108 207q5.0 7 9.0 12" stroke="#d8c8a2" stroke-width="1.2" fill="none" stroke-linecap="round"/><path d="M112 207q7.5 7 13.5 12" stroke="#d8c8a2" stroke-width="1.2" fill="none" stroke-linecap="round"/><path d="M116 207q10.0 7 18.0 12" stroke="#d8c8a2" stroke-width="1.2" fill="none" stroke-linecap="round"/><path d="M120 207q12.5 7 22.5 12" stroke="#d8c8a2" stroke-width="1.2" fill="none" stroke-linecap="round"/>
+ <path d="M100 8C103 30 106 44 124 58C162 80 188 120 177 160C169 196 134 209 100 209C66 209 31 196 23 160C12 120 38 80 76 58C94 44 97 30 100 8Z" fill="url(#gpGarlicFill)"/>
+ <g clip-path="url(#gpGarClip)">
+  <path d="M96 30C67 80 39 130 60 205L86 205C70 130 83 80 102 30Z" fill="url(#gpGarlicBlush)"/><path d="M102 30C112 80 122 130 114 205L140 205C152 130 128 80 108 30Z" fill="url(#gpGarlicBlush)"/><path d="M106 30C142 80 177 130 150 205L176 205C207 130 158 80 112 30Z" fill="url(#gpGarlicBlush)"/>
+  <g fill="none"><path d="M95.4 14C70.4 64 11.1 122 40.7 207" stroke="#a88a58" stroke-opacity=".34" stroke-width="1.7"/><path d="M95.4 14C70.4 64 11.1 122 40.7 207" transform="translate(2.4 0)" stroke="#fff" stroke-opacity=".75" stroke-width="1.6"/><path d="M96.3 14C76.3 64 28.9 122 52.6 207" stroke="#a88a58" stroke-opacity=".34" stroke-width="1.7"/><path d="M96.3 14C76.3 64 28.9 122 52.6 207" transform="translate(2.4 0)" stroke="#fff" stroke-opacity=".75" stroke-width="1.6"/><path d="M97.2 14C82.2 64 46.7 122 64.4 207" stroke="#a88a58" stroke-opacity=".34" stroke-width="1.7"/><path d="M97.2 14C82.2 64 46.7 122 64.4 207" transform="translate(2.4 0)" stroke="#fff" stroke-opacity=".75" stroke-width="1.6"/><path d="M98.1 14C88.1 64 64.4 122 76.3 207" stroke="#a88a58" stroke-opacity=".34" stroke-width="1.7"/><path d="M98.1 14C88.1 64 64.4 122 76.3 207" transform="translate(2.4 0)" stroke="#fff" stroke-opacity=".75" stroke-width="1.6"/><path d="M99.1 14C94.1 64 82.2 122 88.1 207" stroke="#a88a58" stroke-opacity=".34" stroke-width="1.7"/><path d="M99.1 14C94.1 64 82.2 122 88.1 207" transform="translate(2.4 0)" stroke="#fff" stroke-opacity=".75" stroke-width="1.6"/><path d="M100.0 14C100.0 64 100.0 122 100.0 207" stroke="#a88a58" stroke-opacity=".34" stroke-width="1.7"/><path d="M100.0 14C100.0 64 100.0 122 100.0 207" transform="translate(2.4 0)" stroke="#fff" stroke-opacity=".75" stroke-width="1.6"/><path d="M100.9 14C105.9 64 117.8 122 111.9 207" stroke="#a88a58" stroke-opacity=".34" stroke-width="1.7"/><path d="M100.9 14C105.9 64 117.8 122 111.9 207" transform="translate(2.4 0)" stroke="#fff" stroke-opacity=".75" stroke-width="1.6"/><path d="M101.9 14C111.9 64 135.6 122 123.7 207" stroke="#a88a58" stroke-opacity=".34" stroke-width="1.7"/><path d="M101.9 14C111.9 64 135.6 122 123.7 207" transform="translate(2.4 0)" stroke="#fff" stroke-opacity=".75" stroke-width="1.6"/><path d="M102.8 14C117.8 64 153.3 122 135.6 207" stroke="#a88a58" stroke-opacity=".34" stroke-width="1.7"/><path d="M102.8 14C117.8 64 153.3 122 135.6 207" transform="translate(2.4 0)" stroke="#fff" stroke-opacity=".75" stroke-width="1.6"/><path d="M103.7 14C123.7 64 171.1 122 147.4 207" stroke="#a88a58" stroke-opacity=".34" stroke-width="1.7"/><path d="M103.7 14C123.7 64 171.1 122 147.4 207" transform="translate(2.4 0)" stroke="#fff" stroke-opacity=".75" stroke-width="1.6"/><path d="M104.6 14C129.6 64 188.9 122 159.3 207" stroke="#a88a58" stroke-opacity=".34" stroke-width="1.7"/><path d="M104.6 14C129.6 64 188.9 122 159.3 207" transform="translate(2.4 0)" stroke="#fff" stroke-opacity=".75" stroke-width="1.6"/></g>
+  <rect width="200" height="220" filter="url(#gpPaper)" opacity=".55"/>
+  <path d="M100 8C103 30 106 44 124 58C162 80 188 120 177 160C169 196 134 209 100 209C66 209 31 196 23 160C12 120 38 80 76 58C94 44 97 30 100 8Z" fill="url(#gpGarlicShade)"/>
+  <ellipse cx="62" cy="118" rx="14" ry="42" transform="rotate(14 62 118)" fill="#fff" opacity=".6" filter="url(#gpBlur3)"/>
+ </g>
+ <ellipse cx="100" cy="208" rx="22" ry="5.5" fill="#9a7f4e"/><ellipse cx="100" cy="207" rx="14" ry="3" fill="#6f5a33"/>
+ <path d="M100 8C101 12 100 15 97 20" stroke="#b5a070" stroke-width="2.5" fill="none" stroke-linecap="round"/>
+</g>
+<clipPath id="gpCloveClip"><path d="M72 6C104 32 116 92 88 148C76 164 42 162 32 142C20 108 38 50 72 6Z"/></clipPath>
+<g id="gpCloveG">
+ <path d="M72 6C104 32 116 92 88 148C76 164 42 162 32 142C20 108 38 50 72 6Z" fill="url(#gpClove)"/>
+ <g clip-path="url(#gpCloveClip)">
+  <g fill="none" stroke="#a98d5a" stroke-opacity=".35" stroke-width="1.5"><path d="M72 10C58 60 48 110 56 150"/><path d="M76 14C70 60 68 110 76 152"/><path d="M82 24C84 70 86 110 82 150"/></g>
+  <path d="M96 34C112 80 108 130 86 156C100 120 102 80 96 34Z" fill="#8a6d3a" opacity=".22"/>
+  <ellipse cx="50" cy="80" rx="7" ry="34" transform="rotate(12 50 80)" fill="#fff" opacity=".75" filter="url(#gpBlur3)"/>
+ </g>
+</g></defs></svg>
+<div class="hero-content">
+          <p class="eyebrow">
+            <span class="eyebrow-line"></span> GOOD FOOD. GREAT MOMENTS.
+          </p>
+          <h1>Welcome to <em>Palle Vindu. </em></h1>
+          <p class="hero-copy">these is the them of my 
+            Traditional flavours and delicious favourites, freshly prepared for your family.
+          </p>
+          <div class="hero-actions">
+            <a class="button button-gold" href="#order"
+              >View Our Menu <span>↗</span></a
+            >
+            <a class="text-link" href="#dinein"
+              >Plan your visit <span>→</span></a
+            >
+          </div>
+          <div class="hero-notes">
+            <span>✦ Fresh ingredients</span><span>✦ Made to order</span
+            ><span>✦ A little extra love</span>
+          </div>
+        </div>
+        <div class="hero-image-wrap" aria-label="Featured dishes from our kitchen">
+          <video
+            class="hero-video"
+            id="heroVideo"
+            autoplay
+            muted
+            loop
+            playsinline
+            preload="auto"
+            aria-label="Featured food video from our kitchen"
+          >
+            <source src="assets/hero-featured.mp4" type="video/mp4" />
+          </video>
+          <button
+            class="video-toggle"
+            id="heroVideoToggle"
+            type="button"
+            aria-label="Pause background video"
+          >
+            <svg viewBox="0 0 24 24" width="16" height="16" aria-hidden="true">
+              <path class="icon-pause" d="M7 5h3v14H7zM14 5h3v14h-3z" fill="currentColor" />
+              <path class="icon-play" d="M8 5v14l11-7z" fill="currentColor" />
+            </svg>
+          </button>
+        </div>
+      </section>
+
+      <section
+        class="service-strip produce-background"
+        aria-label="Restaurant highlights"
+      >
+        <div>
+          <span class="strip-icon">✳</span
+          ><span
+            ><strong>Freshly prepared</strong
+            ><small>Quality in every bite</small></span
+          >
+        </div>
+        <div>
+          <span class="strip-icon">⌂</span
+          ><span
+            ><strong>Order your way</strong
+            ><small>Online or dine in</small></span
+          >
+        </div>
+        <div>
+          <span class="strip-icon">♡</span
+          ><span
+            ><strong>Made with care</strong
+            ><small>Flavour worth sharing</small></span
+          >
+        </div>
+      </section>
+
+      <section class="menu-section section-pad produce-background" id="order">
+        <div class="section-heading">
+          <div>
+            <p class="eyebrow">SOMETHING DELICIOUS AWAITS</p>
+            <h2>Explore our <em>menu.</em></h2>
+            <p class="section-intro">
+              Your favourites, made fresh and served with a little extra love.
+            </p>
+          </div>
+          <label class="search-box"
+            ><span>⌕</span
+            ><input
+              id="searchInput"
+              type="search"
+              placeholder="Search dishes..."
+              aria-label="Search dishes"
+          /></label>
+        </div>
+        <div class="category-row" id="categoryRow">
+          <button class="category-chip active" data-category="All">All dishes</button>
+          <button class="category-chip" data-category="Starters">Starters</button>
+          <button class="category-chip" data-category="Indian Mains">Indian mains</button>
+          <button class="category-chip" data-category="Biryani">Biryanis</button>
+          <button class="category-chip" data-category="Fried Rice">Fried Rice</button>
+        </div>
+        <div class="food-grid" id="foodGrid" aria-live="polite"></div>
+        <p class="menu-footnote">
+          Prices and offers shown are demo content. Replace them with your
+          restaurant's actual menu.
+        </p>
+      </section>
+
+      <section class="offer-banner produce-background">
+        <div class="offer-copy">
+          <p class="eyebrow">A LITTLE SOMETHING EXTRA</p>
+          <h2>Good food tastes even better <em>with an offer.</em></h2>
+          <p>Look out for special prices on selected favourites.</p>
+          <a href="#order" class="button button-light"
+            >Find your favourite <span>→</span></a
+          >
+        </div>
+        <div class="offer-art" aria-hidden="true">
+          <span class="offer-circle">SPECIAL<br />MENU</span
+          ><span class="offer-spark">✳</span><span class="offer-leaf">❧</span>
+        </div>
+      </section>
+
+      <section class="dine-section section-pad produce-background" id="dinein">
+        <div class="dine-image-wrap">
+          <img
+            src="https://images.unsplash.com/photo-1414235077428-338989a2e8c0?auto=format&fit=crop&w=1000&q=85"
+            alt="Warm, welcoming restaurant dining space"
+          />
+          <div class="image-label">Come as you are. Leave happy.</div>
+        </div>
+        <div class="dine-content">
+          <p class="eyebrow">YOUR TABLE IS WAITING</p>
+          <h2>Make room for <em>good moments.</em></h2>
+          <p>
+            Gather your favourite people, settle in, and let us take care of the
+            flavour. Visit us for a relaxed meal and warm hospitality.
+          </p>
+          <div class="detail-list">
+            <div>
+              <span class="detail-icon">⌖</span
+              ><span
+                ><strong>Find us</strong
+                ><small id="addressText"
+                  >Add your restaurant address here</small
+                ></span
+              >
+            </div>
+            <div>
+              <span class="detail-icon">◷</span
+              ><span
+                ><strong>Opening hours</strong
+                ><small id="hoursText"
+                  >Monday – Sunday · 11:30 AM – 10:30 PM</small
+                ></span
+              >
+            </div>
+            <div>
+              <span class="detail-icon">☎</span
+              ><span
+                ><strong>Call us</strong
+                ><small id="phoneText">+91 98765 43210</small></span
+              >
+            </div>
+          </div>
+          <div class="dine-actions">
+            <a
+              class="button button-green"
+              id="mapLink"
+              href="https://maps.google.com/?q=restaurant"
+              target="_blank"
+              rel="noopener"
+              >Get directions <span>↗</span></a
+            ><button class="button button-outline" id="showQr">
+              Open digital menu QR <span>▦</span>
+            </button>
+          </div>
+          <p class="small-note">
+            The address and phone number are placeholders. Update them in
+            <code>script.js</code>.
+          </p>
+        </div>
+      </section>
+
+      <section class="qr-section produce-background" id="qrSection">
+        <div>
+          <p class="eyebrow">SCAN. BROWSE. ENJOY.</p>
+          <h2>Your table, <em>your menu.</em></h2>
+          <p>
+            Scan this QR code with your phone camera to open the digital menu.
+            For a live website, publish the site and generate a QR code using
+            its public menu URL.
+          </p>
+          <a class="text-link" href="menu.html">Open digital menu now →</a>
+        </div>
+        <div class="qr-card">
+          <div id="qrcode" class="qr-code"><span>QR code loads here</span></div>
+          <strong>PALLE VINDU</strong
+          ><small>Scan to explore our menu</small>
+        </div>
+      </section>
+
+      <section class="about-section section-pad produce-background" id="about">
+        <p class="eyebrow">A PLACE FOR EVERY APPETITE</p>
+        <h2>Simple ingredients. <em>Memorable moments.</em></h2>
+        <p>
+          We believe a good meal brings people together. Our menu celebrates a
+          mix of comforting classics and crowd favourites, prepared with care
+          and served with warmth.
+        </p>
+      </section>
+    </main>
+
+    <footer class="site-footer produce-background">
+      <a class="brand brand-footer" href="#home" aria-label="Palle Vindu Family Restaurant home">
+        <img class="brand-logo" src="assets/palle-vindu-logo.png" alt="Palle Vindu Family Restaurant">
+      </a>
+      <p>Good food, shared moments.</p>
+      <small
+        >© <span id="year"></span> Palle Vindu Family Restaurant.</small
+      >
+    </footer>
+    <div class="toast" id="toast" role="status" aria-live="polite"></div>
+  </body>
+</html>
